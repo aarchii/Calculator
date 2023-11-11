@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box ;
+  font-family: 'Poppins', sans-serif;
+}
+
+body{
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #4E8AC8;
+}
+
+.calculator{
+  width: 64vh;
+  height: 71vh;
+  border: 1px solid #EBF5FF;
+  padding: 20px;
+  border-radius: 19px;
+  background-color: #EBF5FF;
+
+}
+
+input{
+  width: 57vh;
+  height: 13vh;
+  border: none;
+  padding: 24px;
+  margin: 2px;
+  background-color: #CCE6FF;
+  border-radius: 9px;
+  font-size: 40px;
+  text-align: right;
+  cursor: pointer;
+}
+
+button{
+  border: none;
+  border-radius: 9px;
+  background-color: #CCE6FF;
+  cursor: pointer;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+button:hover{
+  background-color: #E7F5FF;
+  color: black;
+  transition: 0s;
+  border: 1px solid #101010;
+}
+
+.row1 button{
+  width: 9.75vh;
+  height: 8.25vh;
+  margin: 10px 3px 8px 5px;
+}
+
+.row2 button{
+  width: 9.75vh;
+  height: 8.25vh;
+  margin: 5px 3px 8px 5px;
+}
+
+.row3 button{
+  width: 9.75vh;
+  height: 8.25vh;
+  margin: 5px 3px 8px 5px;
+}
+
+.row4 button{
+  width: 9.75vh;
+  height: 8.25vh;
+  margin: 5px 3px 8px 5px;
+}
+
+.row5 button{
+  width: 9.75vh;
+  height: 8.25vh;
+  margin: 5px 3px 8px 5px;
+}
+
+.special{
+  background-color: #A4D0FF;
+  font-size: 18px;
+  font-weight: bold;
+  color: #4A88C6;
+}
+
+.row5 .enter{
+  background-color: #4E8AC8;
+  width: 37%;
+  color: #E7F5FF;
+  font-weight: lighter;
+}
+
+.enter:hover{
+  background-color: #E7F5FF;
+  color: black;
+}
+
